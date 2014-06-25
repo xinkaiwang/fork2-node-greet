@@ -1,0 +1,20 @@
+{
+  "name": "greet",
+  "version": "0.0.0",
+  "description": "A simple and naive greeter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "greet": "./bin/greet.js"
+  },
+  "keywords": [
+    "Hello-world"
+  ],
+  "author": "Xinkai Wang",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^0.2.0"
+  }
+}
