@@ -2,9 +2,9 @@
   "name": "greet",
   "version": "0.0.0",
   "description": "A simple and naive greeter",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "bin": {
     "greet": "./bin/greet.js"
@@ -16,5 +16,10 @@
   "license": "ISC",
   "dependencies": {
     "minimist": "^0.2.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "coffee-script": "^1.7.1",
+    "mocha": "^1.20.1"
   }
 }
